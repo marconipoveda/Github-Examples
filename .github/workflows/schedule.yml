@@ -1,3 +1,5 @@
+name: Scheduled Action
+
 on:
   schedule:
     - cron: '*/1 * * * *'
