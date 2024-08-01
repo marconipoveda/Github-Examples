@@ -1,6 +1,7 @@
 name: Multi Event Workflow
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
