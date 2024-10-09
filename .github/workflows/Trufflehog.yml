@@ -1,5 +1,6 @@
 name: Secret Scanning with Trufflehog
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
